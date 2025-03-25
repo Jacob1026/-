@@ -1,0 +1,22 @@
+/* 這是CSS 屬性寫法3-2 */
+
+#Jacob{
+    color: darkgoldenrod;
+    font-size: 30px;
+    opacity: 0.8;
+}
+.red{
+    color: #ee0d0d;
+    font-style: inherit;
+    font-size: larger;
+}
+h1{
+  color: #d01e1e;  
+}
+
+#Jacob .yellow{
+    color: yellow;
+}
+#Jacob img {
+    opacity: 0.8;
+}
