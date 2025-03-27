@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    
+        .box1{
+            border: 4px solid red;
+            padding: 80px;
+            margin-right: 20px;
+            display: inline-block; /* 讓 box1 成為行內塊元素 */
+            vertical-align: middle;/* 垂直對齊方式設為中間 */
+        }
+        .img1{
+            width: 200px;
+            display: inline-block; 
+            vertical-align: middle;
+        }
+        .box2{
+            border: 4px solid red;
+            margin-top: 80px;
+            width: 500px;
+            height: 150px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box3{
+            border: 4px solid red;
+            margin-right: 50px;
+            padding: 10px;
+        }
+        .box4{
+            border: 4px solid red;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <span class="box1">box1</span>
+    <img class="img1" src="img/a1.jpg" alt="">
+    <div class="box2">box2
+        <span class="box3">box3</span>
+        <span class="box4">box4</span>
+    </div>
+</body>
+</html>
